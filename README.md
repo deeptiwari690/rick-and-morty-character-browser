@@ -2,7 +2,7 @@
 
 Browse all 826 Rick and Morty characters across 42 pages. Search as you type, navigate with full browser back/forward support, and get instant results from cache on pages you've already visited.
 
-## [View live →](https://deeptiwari690.github.io/rick-and-morty-character-browser/)
+[View live →](https://deeptiwari690.github.io/rick-and-morty-character-browser/)
 
 ## Features
 
