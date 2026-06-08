@@ -1,0 +1,47 @@
+:root {
+  --blue-900: 220 15% 10%;
+  --blue-800: 220 15% 20%;
+  --blue-700: 220 15% 30%;
+  --blue-600: 220 15% 40%;
+  --blue-100: 220 15% 80%;
+  --blue-200: 220 15% 70%;
+  --blue-300: 220 15% 60%;
+  --blue-400: 220 15% 50%;
+  --clr-bg: hsl(var(--blue-900));
+  --clr-surface: hsl(var(--blue-800));
+  --clr-surface-object: hsl(var(--blue-700));
+  --clr-surface-object-high: hsl(var(--blue-600));
+  --clr-border: hsl(0deg 0% 100% / 30%);
+  --clr-text: hsl(var(--blue-100));
+  --clr-text-muted: hsl(var(--blue-200));
+  --clr-text-inert: hsl(var(--blue-700));
+  --clr-text-error: hsl(347deg 80% 60%);
+  --clr-surface-inert: hsl(var(--blue-800) / 40%);
+  --clr-skeleton: hsl(220deg 15% 25%);
+  --clr-skeleton-highlight: hsl(220deg 15% 28%);
+  --clr-skeleton-muted: hsl(220deg 15% 23%);
+  --clr-outline: hsl(var(--blue-100));
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --clr-text-links: hsl(215deg 90% 45%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-bg: hsl(var(--blue-100));
+    --clr-surface: hsl(var(--blue-200));
+    --clr-surface-object: hsl(var(--blue-300));
+    --clr-surface-object-high: hsl(var(--blue-400));
+    --clr-border: hsl(0deg 0% 0% / 40%);
+    --clr-text: hsl(var(--blue-900));
+    --clr-text-muted: hsl(var(--blue-800));
+    --clr-text-inert: hsl(var(--blue-300));
+    --clr-surface-inert: hsl(var(--blue-200) / 40%);
+    --clr-skeleton: hsl(220deg 15% 78%);
+    --clr-skeleton-highlight: hsl(220deg 15% 82%);
+    --clr-skeleton-muted: hsl(220deg 15% 74%);
+    --clr-outline: hsl(var(--blue-900));
+  }
+}

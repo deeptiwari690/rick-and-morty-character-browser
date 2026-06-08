@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+  max-width: 31.25rem;
+  margin-inline: auto;
+  background-color: var(--clr-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--clr-border);
+}
+
+.illustration {
+  border-radius: var(--radius-md);
+  max-height: 55dvh;
+  object-fit: cover;
+}
+
+.messageStyle {
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  color: var(--clr-text);
+  background-color: var(--clr-surface-object);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
